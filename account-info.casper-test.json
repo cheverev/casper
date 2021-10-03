@@ -1,0 +1,66 @@
+{
+  "owner": {
+    "name": "Имя Валидатора",
+    "description": "Описание Валидатора",
+    "type": [
+      "validator"
+    ],
+    "identity": {
+      "ownership_disclosure_url": "",
+      "casper_association_kyc_url": "",
+      "casper_association_kyc_onchain": ""
+    },
+    "resources": {
+      "code_of_conduct_url": "",
+      "terms_of_service_url": "",
+      "privacy_policy_url": "",
+      "other": [
+        {
+          "name": "About me",
+          "url": "Указываем ссылку на ресурс вашего Валидатора, я указывал свой github"
+        }
+      ]
+    },
+    "website": "Веб сайт вашего Валидатора, я указывал свой github",
+    "email": "Почта",
+    "branding": {
+      "logo": {
+        "png_256": "Здесь вставляем ранее сохраненную ссылку на фото вашего валидтора с разрешением 256х256",
+        "png_1024": "Здесь вставляем ранее сохраненную ссылку на фото вашего валидтора с разрешением 1024х1024",
+        "svg": ""
+      }
+    },
+    "location": {
+      "name": "Указываем свой город, к примеру Dnepr",
+      "country": "Указываем свою страну, к примеру UA",
+      "latitude": "можно оставить пустым",
+      "longitude": "можно оставить пустым"
+    },
+    "social": {
+      "keybase": "только имя к примеру 'john'",
+      "telegram": "только имя к примеру '@john'",
+      "twitter": "",
+      "github": "только имя к примеру 'john'",
+      "youtube": "",
+      "facebook": "",
+      "medium": "",
+      "reddit": "",
+      "wechat": ""
+    }
+  },
+  "nodes": [
+    {
+      "public_key": "Указываем публичный ключ вашего валидатора",
+      "description": "Описание ноды, можно оставить характеристики вашей ноды и используемый дата центр",
+      "location": {
+        "name": "Город в котором расположена нода, к примеру Nürnberg ",
+        "country": "Страна в которой расположенв нода, к примеру DE",
+        "latitude": 0,
+        "longitude": 0
+      },
+      "functionality": [
+        "validator"
+      ]
+    }
+  ]
+}
